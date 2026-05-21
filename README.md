@@ -1,4 +1,4 @@
-![logo](https://github.com/chirag-soni23/Chirag-Soni23/blob/main/FRONTEND%20(1).png)
+![logo](https://github.com/chirag-soni23/Chirag-Soni23/blob/main/fullstackdeveloper.png)
 <h1 align="center">Hi 👋, I'm Chirag Soni</h1>
 <h3 align="center">A passionate full-stack web developer from India</h3>
 <img align="right" alt="Coding"width="400" src="https://user-images.githubusercontent.com/37551474/113611467-3a567d80-9657-11eb-862b-b07b4f105c6f.gif">
