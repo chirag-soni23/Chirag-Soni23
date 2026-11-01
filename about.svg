@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="300" viewBox="0 0 1000 300" role="img" aria-labelledby="title desc">
+<title id="title">About Chirag Soni</title><desc id="desc">About section with original elemental motifs and developer capabilities.</desc>
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#080d1b"/><stop offset=".55" stop-color="#10172b"/><stop offset="1" stop-color="#170d22"/></linearGradient>
+ <linearGradient id="water" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#38bdf8"/><stop offset=".55" stop-color="#2563eb"/><stop offset="1" stop-color="#8b5cf6"/></linearGradient>
+ <linearGradient id="flame" x1="0" y1="1" x2="0" y2="0"><stop stop-color="#f97316"/><stop offset=".55" stop-color="#fb7185"/><stop offset="1" stop-color="#facc15"/></linearGradient>
+ <linearGradient id="pink"><stop stop-color="#fb7185"/><stop offset="1" stop-color="#c084fc"/></linearGradient>
+ <filter id="glow" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+ <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse"><path d="M34 0H0V34" fill="none" stroke="#64748b" stroke-opacity=".11"/></pattern>
+ <style>
+  text{font-family:Inter,Segoe UI,Arial,sans-serif} .muted{fill:#9aa9c5} .white{fill:#f8fafc}
+  .eyebrow{font-size:12px;letter-spacing:3px;fill:#67e8f9;font-weight:700}
+  .small{font-size:13px} .line{stroke:#64748b;stroke-opacity:.3}
+  .pulse{animation:pulse 3s ease-in-out infinite} .drift{animation:drift 7s ease-in-out infinite}
+  .wave{animation:wave 6s ease-in-out infinite;transform-origin:center}
+  .spark{animation:spark 2.8s ease-in-out infinite}
+  @keyframes pulse{0%,100%{opacity:.45}50%{opacity:1}}
+  @keyframes drift{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
+  @keyframes wave{0%,100%{transform:translateX(-10px)}50%{transform:translateX(10px)}}
+  @keyframes spark{0%,100%{opacity:.25;transform:scale(.8)}50%{opacity:1;transform:scale(1.2)}}
+  @media(prefers-reduced-motion:reduce){.pulse,.drift,.wave,.spark{animation:none}}
+ </style>
+</defs>
+<rect width="100%" height="100%" rx="24" fill="url(#bg)"/><rect width="100%" height="100%" rx="24" fill="url(#grid)"/>
+<rect x="1" y="1" width="998" height="298" rx="23" fill="none" stroke="#7dd3fc" stroke-opacity=".28"/>
+
+<text x="48" y="48" class="eyebrow">01 / ABOUT THE DEVELOPER</text><text x="48" y="91" class="white" font-size="30" font-weight="800">A little about my journey</text>
+<text x="48" y="130" class="muted" font-size="16">I'm Chirag Soni, a Full Stack Web Developer from India who enjoys</text><text x="48" y="155" class="muted" font-size="16">building full-stack products with React, Node.js, Express and MongoDB.</text>
+<text x="48" y="203" fill="#bae6fd" font-size="14" font-weight="700">WHAT I ENJOY</text>
+<g font-size="13" fill="#e2e8f0"><text x="48" y="235">✦ MERN stack development</text><text x="300" y="235">✦ UI & backend engineering</text><text x="560" y="235">✦ Anime & creative design</text></g>
+<g transform="translate(790 65)" class="drift"><circle cx="65" cy="65" r="59" fill="#0c4a6e" fill-opacity=".28" stroke="#38bdf8" stroke-width="2"/><path d="M15 75 Q40 15 65 70 T115 65" fill="none" stroke="#67e8f9" stroke-width="7" stroke-linecap="round" filter="url(#glow)"/><path d="M60 8l-14 31 18-5-15 34" fill="none" stroke="#facc15" stroke-width="3"/><path d="M75 105c-20-20 7-28 0-46 25 19 25 35 7 48" fill="url(#flame)"/></g>
+
+</svg>
